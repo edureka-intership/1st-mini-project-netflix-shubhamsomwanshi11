@@ -1,0 +1,307 @@
+.cb {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.621), rgba(0, 0, 0, 0.237)), url(./Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+}
+
+.conbody {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-lower {
+    margin-top: 15vh;
+    max-width: 640px;
+}
+
+
+.hr {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(114, 102, 102, 0.404)
+}
+
+
+.faq {
+    width: 80vw;
+}
+
+.acitem {
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.698);
+    color: white;
+}
+
+.table-items table tr td {
+    padding-right: 3vw;
+    padding-bottom: 2vh;
+    color: white;
+}
+
+.logo {
+    padding-top: 35px;
+    padding-left: 20px;
+    width: 20%;
+}
+
+.btns {
+    margin-top: 35px;
+    margin-right: 12px;
+}
+
+.sign-in {
+    margin-left: 8px;
+}
+
+.footer{
+    margin-left: 60px;
+    margin-top: 12px;
+}
+
+@media only screen and (min-width: 1450px),
+only screen and (min-width: 950px) and (max-width: 1449px) {
+    .story-card-htitle {
+        font-size: 4rem;
+    }
+
+    .story-card-subtitle {
+        font-size: 1.625rem;
+    }
+
+    .email-title {
+        font-size: 1.2rem;
+        max-width: none;
+        padding-bottom: 4px;
+    }
+
+    .story-card-title {
+        font-size: 3.125rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+
+    .story-card-text {
+        font-size: 1.625rem;
+        font-weight: 400;
+    }
+
+    .faqh {
+        font-size: 3.125rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+
+    .story-card {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 25px 0;
+    }
+
+    .imgs {
+        margin-right: 30px;
+    }
+
+    .story-card-body {
+        margin-left: 81px;
+        margin-right: 90px;
+        margin-top: 75px;
+    }
+
+    .email-box {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        height: 60px !important;
+        min-width: 450px;
+        display: inline;
+    }
+
+    .btn-box {
+        border-bottom-left-radius: 0;
+        border-left: 1px solid #333;
+        border-top-left-radius: 0;
+        margin: 0 !important;
+        display: inline;
+        font-size: 18px;
+        min-height: 60px;
+        min-width: 110px;
+        background-color: red;
+        color: white;
+    }
+
+    .get-started {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 400px;
+        justify-content: center;
+    }
+
+    .faq-question {
+        border: 0;
+        font-weight: 400;
+        margin-bottom: 1px;
+        padding: 0.8em 2.2em 0.8em 1.2em;
+        position: relative;
+        width: 100%;
+        font-size: 1.6rem;
+    }
+
+    .faq-answer {
+        display: inline-block;
+        padding: 1.2em;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+    .story-card-htitle {
+        font-size: 2.125rem;
+    }
+
+    .story-card-subtitle {
+        font-size: 1.625rem;
+    }
+
+
+    .email-title {
+        font-weight: 400;
+        max-width: 450px;
+        font-size: 23px;
+        margin-top: 25px;
+    }
+
+    .email-box {
+        height: 60px;
+        display: block;
+        max-width: 530px;
+    }
+
+    .btn-box {
+        font-size: 1rem;
+        min-height: 40px;
+        margin-top: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+
+    .story-card-title {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+
+    .story-card-text {
+        font-size: 1.25rem;
+    }
+
+    .story-card-body {
+        margin: 0 60px;
+        text-align: center;
+    }
+
+    .imgs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 549px) {
+    .logo {
+        padding-top: 35px;
+        padding-left: 20px;
+        width: 35%;
+    }
+
+    .btns {
+        margin-top: 25px;
+        width: 55%;
+    }
+
+    .story-card-htitle {
+        font-size: 1.75rem;
+    }
+
+    .header-lower {
+        padding: 0 25px;
+    }
+
+    .story-card-subtitle {
+        font-size: 1.125rem;
+        margin: 1rem auto;
+    }
+
+    .email-title {
+        margin: 0 10%;
+        font-size: 12px;
+    }
+
+    .email-box {
+        height: 48px;
+        padding: 10px 10px 0;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .btn-box {
+        color: white;
+        background-color: red;
+        margin-top: 15px;
+        border: none;
+        font-size: 20px;
+    }
+
+    .cb {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./Images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        height: 75vh;
+    }
+
+    .header-lower{
+        padding: 0 30px;
+    }
+
+    .email-title{
+        font-size: 15px;
+    }
+
+    .story-card{
+        max-width: 100vw;
+    }
+
+    .animation-image{
+        width: 100vw;
+    }
+    
+    .story-card-body{
+        padding: 0 12px;
+    }
+
+    .faq{
+        width: 90vw;
+    }
+
+    .faqh{
+        font-size: 1.5rem;
+    }
+
+    .email-box{
+        max-width: 300px;
+    }
+
+    .footer{
+        margin: 12px 12px;
+    }
+}
